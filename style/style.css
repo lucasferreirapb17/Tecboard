@@ -1,0 +1,109 @@
+/*tem que importar a fonte do google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap');
+
+
+/* Reset de estilos para garantir consistência entre navegadores */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* inicio da estilização */
+
+body {
+    background-color: #0E1014;
+    line-height: 1;
+    text-align: center;
+    /* overflow-x:hidden; */
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+p{
+  
+  font-weight: 400;
+  font-size:clamp(16px, 4vw, 24px);
+  width: 100%;
+  max-width: 850px;
+  text-align: center;
+  line-height: 1.5; 
+  margin: 0 auto;
+  padding: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding-left: 10%;
+    margin-top: 16px;
+    
+}
+
+h1 {
+    color: #FFFFFF;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 700;
+    font-size: clamp(32px, 8vw, 64px);
+    text-align: center;
+}
+
+/* Estilização da Section  */
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    padding: 4rem 2rem;
+}
+
+a {
+    display: inline-block;
+    background-color: #9747FF;
+    padding: 1.2rem 2.4rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    color: #FFFFFF;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600; /* SemiBold */
+    color: #F5F5F5;
+    text-decoration: none;
+    margin: 40px auto 40px;
+
+   
+}
+a:hover {
+    background-color: white;
+    color: #9747FF;
+}
+
+.celulares-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5rem;
+    gap: 2rem;
+}
+
+/* Textos */
+
+.txt-topo {
+    color: #8233E8; 
+    display: block;
+}
+
+.txt-bot {
+    display: block;
+}
